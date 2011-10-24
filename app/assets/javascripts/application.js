@@ -6,4 +6,12 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
+//= require underscore-min
+//= require backbone-min
+
+//= require ./backbone/app
+//= require_tree ./backbone/templates
+//= require_tree ./backbone/models
+//= require_tree ./backbone/collections
+//= require_tree ./backbone/views
+//= require_tree ./backbone/routers
