@@ -14,6 +14,6 @@ window.App =
     #  when "tasks" then tasks()
     
     # Start Backbone
-    if !Backbone.history.started
-      Backbone.history.start()
-      Backbone.history.started = true    
+    #if !Backbone.history.started
+    #  Backbone.history.start()
+    #  Backbone.history.started = true    
